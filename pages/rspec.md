@@ -4,8 +4,6 @@ title: rspec
 order: 2
 ---
 
-This website is/has been used for a `Serverspec` workshop.
-
 Installation
 ------------
 

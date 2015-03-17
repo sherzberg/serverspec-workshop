@@ -4,3 +4,4 @@ serve:
 
 test:
 	cd _includes/rspec/ && bats .
+	cd _includes/serverspec/ && bats .
