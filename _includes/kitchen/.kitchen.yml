@@ -1,0 +1,12 @@
+---
+driver:
+  name: docker
+
+provisioner:
+  name: shell
+
+platforms:
+  - name: ubuntu
+
+suites:
+  - name: default
