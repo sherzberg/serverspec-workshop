@@ -39,6 +39,10 @@ Finally run the spec:
 {% include dockerfile_testing/run.sh %}
 {% endhighlight %}
 
+`specinfra` is supposed to have docker backend support but it seems to be broken currently. If this were working, we could run real serverspec tests right against a real container, just just poke a the `docker inspect` json.
+
+If our container had ssh setup, we could also ust the raw ssh backend for `serverspec`. This is outside the scope of this workshop.
+
 Exercises
 ---------
 

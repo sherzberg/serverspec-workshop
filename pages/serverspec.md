@@ -1,7 +1,7 @@
 ---
 layout: default
 title: serverspec
-order: 2
+order: 4
 ---
 
 Now that we know a little about `rspec`, lets jump right into `serverspec`.
@@ -67,4 +67,6 @@ For more `resource_types` click [here](http://serverspec.org/resource_types.html
 Exercises
 ---------
 
-* 
+* Check to make sure that `/etc/passwd` is a file.
+* Check to make sure that `pwd` is executable.
+* Check to make sure that `www.google.com` is reachable on port 80.
