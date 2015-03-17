@@ -14,6 +14,8 @@ This is going to be more of an `rspec` style test and we also need another depen
 
 _NOTE: you may need to use `sudo` for installation of gems_
 
+_NOTE: you may need the ruby development packages because this builds a native gem_
+
 {% highlight bash %}
 {% include dockerfile_testing/install.sh %}
 {% endhighlight %}

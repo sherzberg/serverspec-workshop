@@ -1,7 +1,5 @@
-RSpec.describe  do
-  describe "math operations" do
-    it "addition works properly" do
-      expect(4 + 4).to eq(8)
-    end
+describe "math operations" do
+  it "addition works properly" do
+    expect(4 + 4).to eq(8)
   end
 end

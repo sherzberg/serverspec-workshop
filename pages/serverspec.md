@@ -62,8 +62,14 @@ Let's add some serverspec to a file called `spec/localhost/example_spec.rb`
 {% include serverspec/spec/localhost/example_spec.rb %}
 {% endhighlight %}
 
+And to run the server specs:
+
+{% highlight bash %}
+$ rake spec
+{% endhighlight %}
 
 For more `resource_types` click [here](http://serverspec.org/resource_types.html)
+
 Exercises
 ---------
 

@@ -1,3 +1,5 @@
+require 'docker'
+
 describe "dockerfile built the image" do
 
   before(:all) do

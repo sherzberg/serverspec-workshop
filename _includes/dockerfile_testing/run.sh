@@ -1,1 +1,1 @@
-rspec --format doc spec/docker_spec.rb
+rspec --format doc docker_spec.rb

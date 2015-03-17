@@ -34,6 +34,12 @@ Now lets create a file called `example_spec.rb`:
 {% include rspec/example_spec.rb %}
 {% endhighlight %}
 
+To run in:
+
+{% highlight bash %}
+$ rspec example_spec.rb
+{% endhighlight %}
+
 Check out the other matchers [here](http://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers)
 
 Now lets write some advanced matchers. Create a file called `advanced_spec.rb`:
@@ -42,6 +48,9 @@ Now lets write some advanced matchers. Create a file called `advanced_spec.rb`:
 {% include rspec/advanced_spec.rb %}
 {% endhighlight %}
 
+{% highlight bash %}
+$ rspec advanced_spec.rb
+{% endhighlight %}
 
 _NOTE: you may run across the old syntax:_
 
