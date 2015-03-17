@@ -1,0 +1,7 @@
+name: Serverspec Workshop
+url: "http://sherzberg.github.io/serverspec-workshop"
+baseurl: ""
+
+markdown: redcarpet
+permalinks: pretty
+highlighter: pygments
