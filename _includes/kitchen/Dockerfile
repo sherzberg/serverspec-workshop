@@ -1,3 +1,3 @@
-FROM ubuntu:14.04
+FROM ruby
 
-
+RUN curl -L https://www.chef.io/chef/install.sh | bash

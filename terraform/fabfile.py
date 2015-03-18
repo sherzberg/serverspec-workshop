@@ -31,6 +31,7 @@ def provision():
 @task
 def pull():
     sudo('docker pull ubuntu:14.04')
+    sudo('docker pull ruby')
 
 
 @task

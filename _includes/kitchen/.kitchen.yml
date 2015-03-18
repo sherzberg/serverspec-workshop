@@ -7,6 +7,8 @@ provisioner:
 
 platforms:
   - name: ubuntu
+    driver_config:
+      image: kitchen-custom
 
 suites:
   - name: default
